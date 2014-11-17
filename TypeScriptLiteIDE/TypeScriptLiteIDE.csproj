@@ -61,6 +61,42 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="TypeScript\CompilerOptions.cs" />
+    <Compile Include="TypeScript\EmitReturnStatus.cs" />
+    <Compile Include="TypeScript\ICancellationToken.cs" />
+    <Compile Include="TypeScript\ClassifiedSpan.cs" />
+    <Compile Include="TypeScript\CompletionEntry.cs" />
+    <Compile Include="TypeScript\CompletionEntryDetails.cs" />
+    <Compile Include="TypeScript\CompletionInfo.cs" />
+    <Compile Include="TypeScript\DefinitionInfo.cs" />
+    <Compile Include="TypeScript\Diagnostic.cs" />
+    <Compile Include="TypeScript\EditorOptions.cs" />
+    <Compile Include="TypeScript\EmitOutput.cs" />
+    <Compile Include="TypeScript\FormatCodeOptions.cs" />
+    <Compile Include="TypeScript\ILanguageService .cs" />
+    <Compile Include="TypeScript\ILanguageServiceHost.cs" />
+    <Compile Include="TypeScript\ILogger.cs" />
+    <Compile Include="TypeScript\NavigateToItem.cs" />
+    <Compile Include="TypeScript\NavigationBarItem.cs" />
+    <Compile Include="TypeScript\OutliningSpan.cs" />
+    <Compile Include="TypeScript\OutputFile.cs" />
+    <Compile Include="TypeScript\QuickInfo.cs" />
+    <Compile Include="TypeScript\ReferenceEntry.cs" />
+    <Compile Include="TypeScript\RenameInfo.cs" />
+    <Compile Include="TypeScript\RenameLocation.cs" />
+    <Compile Include="TypeScript\IScriptSnapshot.cs" />
+    <Compile Include="TypeScript\SignatureHelpItem.cs" />
+    <Compile Include="TypeScript\SignatureHelpItems.cs" />
+    <Compile Include="TypeScript\SignatureHelpParameter.cs" />
+    <Compile Include="TypeScript\SignatureInfo.cs" />
+    <Compile Include="TypeScript\SymbolDisplayPart.cs" />
+    <Compile Include="TypeScript\TextChange.cs" />
+    <Compile Include="TypeScript\TextSpan.cs" />
+    <Compile Include="TypeScript\TodoComment.cs" />
+    <Compile Include="TypeScript\TodoCommentDescriptor.cs" />
+    <Compile Include="TypeScript\ModuleKind.cs" />
+    <Compile Include="TypeScript\ScriptTarget.cs" />
+    <Compile Include="TypeScript\TextChangeRange.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
