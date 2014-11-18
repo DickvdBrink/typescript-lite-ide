@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:xcad="http://schemas.xceed.com/wpf/xaml/avalondock"
+             xmlns:local="clr-namespace:TypeScriptLiteIDE.Controls"
              mc:Ignorable="d" 
              d:DesignHeight="350" d:DesignWidth="525">
     <Grid>
@@ -43,6 +44,7 @@
                     <xcad:LayoutAnchorablePaneGroup DockHeight="150">
                         <xcad:LayoutAnchorablePane>
                             <xcad:LayoutAnchorable Title="Error List" CanHide="False">
+                                <local:ErrorList />
                             </xcad:LayoutAnchorable>
                             <xcad:LayoutAnchorable Title="Output" CanHide="False">
                                 <TextBox Text="Output" />
