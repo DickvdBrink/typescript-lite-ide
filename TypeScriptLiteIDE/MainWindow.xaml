@@ -3,6 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="24"/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="New">
+                    <MenuItem Header="Project..." />
+                    <MenuItem Header="File..."/>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Exit"/>
+            </MenuItem>
+        </Menu>
+        <StatusBar Grid.Row="2">
+            <StatusBarItem Content="TypeScript-Lite-IDE"/>
+        </StatusBar>
     </Grid>
 </Window>
