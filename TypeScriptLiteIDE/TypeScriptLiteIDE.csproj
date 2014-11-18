@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controls\EditorDock.xaml.cs">
+      <DependentUpon>EditorDock.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TypeScript\CompilerOptions.cs" />
     <Compile Include="TypeScript\EmitReturnStatus.cs" />
     <Compile Include="TypeScript\ICancellationToken.cs" />
@@ -100,6 +103,10 @@
     <Compile Include="TypeScript\ModuleKind.cs" />
     <Compile Include="TypeScript\ScriptTarget.cs" />
     <Compile Include="TypeScript\TextChangeRange.cs" />
+    <Page Include="Controls\EditorDock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
