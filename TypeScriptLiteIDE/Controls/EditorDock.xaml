@@ -17,7 +17,7 @@
                     </StackPanel>
                 </DataTemplate>
             </xcad:DockingManager.DocumentHeaderTemplate>
-            <xcad:LayoutRoot x:Name="layoutRoot">
+            <xcad:LayoutRoot x:Name="avalonLayoutRoot">
                 <xcad:LayoutPanel Orientation="Vertical">
                     <xcad:LayoutPanel Orientation="Horizontal" DockHeight="*">
                         <xcad:LayoutAnchorablePaneGroup DockWidth="150" Orientation="Vertical">
