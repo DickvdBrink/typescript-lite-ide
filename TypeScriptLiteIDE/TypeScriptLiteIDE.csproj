@@ -168,6 +168,12 @@
   <ItemGroup>
     <Content Include="Scripts\typescriptServices.js" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TypeScriptLiteIDE.Shared\TypeScriptLiteIDE.Shared.csproj">
+      <Project>{bf39e3c7-0476-4f75-aa49-8beab6d3c18a}</Project>
+      <Name>TypeScriptLiteIDE.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
