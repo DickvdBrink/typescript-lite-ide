@@ -70,6 +70,9 @@
     <Compile Include="Controls\ErrorList.xaml.cs">
       <DependentUpon>ErrorList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ProjectExplorer.xaml.cs">
+      <DependentUpon>ProjectExplorer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TypeScript\CompilerOptions.cs" />
     <Compile Include="TypeScript\EmitReturnStatus.cs" />
     <Compile Include="TypeScript\ICancellationToken.cs" />
@@ -111,6 +114,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controls\ErrorList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ProjectExplorer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

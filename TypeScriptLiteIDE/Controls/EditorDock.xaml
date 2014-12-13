@@ -23,7 +23,7 @@
                         <xcad:LayoutAnchorablePaneGroup DockWidth="150" Orientation="Vertical">
                             <xcad:LayoutAnchorablePane>
                                 <xcad:LayoutAnchorable ContentId="project" Title="Project" CanHide="False" CanClose="False" AutoHideWidth="150">
-                                    <Grid Background="White"></Grid>
+                                    <local:ProjectExplorer></local:ProjectExplorer>
                                 </xcad:LayoutAnchorable>
                                 <xcad:LayoutAnchorable ContentId="properties" Title="Properties" CanHide="False" CanClose="False" AutoHideWidth="150">
                                     <Grid Background="White"></Grid>
