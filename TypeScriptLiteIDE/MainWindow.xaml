@@ -6,10 +6,11 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="24"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="24"/>
         </Grid.RowDefinitions>
-        <Menu>
+        <Menu Grid.Row="0">
             <MenuItem Header="File">
                 <MenuItem Header="New">
                     <MenuItem Header="Project..." />
@@ -19,8 +20,11 @@
                 <MenuItem Header="Exit"/>
             </MenuItem>
         </Menu>
-        <local:EditorDock Grid.Row="1"></local:EditorDock>
-        <StatusBar Grid.Row="2">
+        <ToolBar Grid.Row="1">
+            <Button Click="openFileClick">Open</Button>
+        </ToolBar>
+        <local:EditorDock x:Name="editorDock" Grid.Row="2"></local:EditorDock>
+        <StatusBar Grid.Row="3">
             <StatusBarItem Content="TypeScript-Lite-IDE"/>
         </StatusBar>
     </Grid>

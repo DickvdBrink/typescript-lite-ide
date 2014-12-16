@@ -64,6 +64,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controls\TSEditor.cs" />
     <Compile Include="Controls\EditorDock.xaml.cs">
       <DependentUpon>EditorDock.xaml</DependentUpon>
     </Compile>

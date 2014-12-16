@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,15 @@ namespace TypeScriptLiteIDE
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void openFileClick(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            if (dlg.ShowDialog(this).Value)
+            {
+                editorDock.OpenFile(dlg.FileName);
+            }
         }
     }
 }
