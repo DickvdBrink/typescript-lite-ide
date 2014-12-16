@@ -32,12 +32,6 @@
                         </xcad:LayoutAnchorablePaneGroup>
                         <xcad:LayoutDocumentPaneGroup>
                             <xcad:LayoutDocumentPane x:Name="documentPane">
-                                <xcad:LayoutDocument ContentId="document1" Title="Document 1">
-                                    <Button Content="Document 1 Content" HorizontalAlignment="Center" VerticalAlignment="Center" />
-                                </xcad:LayoutDocument>
-                                <xcad:LayoutDocument ContentId="document2" Title="Document 2">
-                                    <TextBox Text="Document 2 Content" AcceptsReturn="True" />
-                                </xcad:LayoutDocument>
                             </xcad:LayoutDocumentPane>
                         </xcad:LayoutDocumentPaneGroup>
                     </xcad:LayoutPanel>
